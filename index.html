@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171126"><meta name="description" content="A little birthday surprise for Bubby.">
+<title>A Little Something for Bubby 💜</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div><div class="stars" aria-hidden="true"></div>
+<header class="top"><span class="brand">BUBBY <i>✦</i></span><span class="top-note">made with love, just for you</span></header>
+<main>
+<section class="hero" id="home">
+  <div class="eyebrow">A LITTLE BIRTHDAY SURPRISE</div>
+  <h1>For my<br><em>dearest Bubby.</em></h1>
+  <p class="intro">A tiny corner of the internet, made to celebrate you.</p>
+  <button class="primary" id="openBtn">Open your surprise <span>↗</span></button>
+  <div class="hero-orbit"><span>✦</span><span>♡</span><span>✧</span></div>
+  <div class="scroll-hint">SCROLL A LITTLE <span>↓</span></div>
+</section>
+<section class="letter section" id="note">
+  <div class="section-kicker">01 — A NOTE FOR YOU</div>
+  <div class="note-card"><div class="tiny-star">✳</div><h2>Today is all about <em>you.</em></h2>
+  <p>To my dearest Bubby,</p><p>I hope this little surprise reminds you how loved you are. You make ordinary days feel softer, brighter, and a whole lot more beautiful. I’m grateful for your smile, your silly little moments, and all the memories still waiting for us.</p><p>May this new year bring you the happiest moments, the gentlest days, and everything your heart has been hoping for.</p><p class="signoff">Happy birthday, Bubby. <span>♡</span></p></div>
+</section>
+<section class="gallery section" id="gallery">
+ <div class="section-kicker">02 — A FEW OF MY FAVOURITE VIEWS</div><div class="section-heading"><h2>A gallery of <em>you.</em></h2><p>Ten little reminders of why you’re so special.</p></div>
+ <div class="music-control"><button id="musicBtn" aria-label="Play gallery music">▶</button><span id="musicLabel">A little piano for the memories</span><span class="music-status" id="musicStatus">OFF</span></div>
+ <div class="photo-grid" id="photoGrid"></div>
+</section>
+<section class="song section" id="song">
+ <div class="section-kicker">03 — SOMETHING I MADE FOR YOU</div><div class="section-heading"><h2>A song, <em>just for you.</em></h2><p>I wanted you to have this one, exactly as I recorded it.</p></div>
+ <div class="video-frame"><video id="songVideo" controls playsinline preload="metadata" poster="assets/photos/10.jpg"><source src="assets/bubby-song.mp4" type="video/mp4">Your browser does not support video playback.</video></div>
+ <p class="video-caption">No fancy production. Just me, my guitar, and a song for you. ♡</p>
+</section>
+<section class="finale" id="finale">
+ <div class="finale-image"><img src="assets/photos/10.jpg" alt="Bubby smiling in lavender" loading="lazy"></div>
+ <div class="finale-overlay"><div class="section-kicker">ALWAYS, IN EVERY LITTLE WAY</div><h2>In every lifetime,<br><em>I’d find my way back to you.</em></h2><p>Happy Birthday, Bubby.</p><div class="heart">♡</div></div>
+</section>
+</main>
+<footer>Made with all my love <span>✦</span> for Bubby</footer>
+<audio id="galleryMusic" src="assets/gallery-instrumental.mp3" loop preload="none"></audio>
+<script src="script.js"></script>
+</body></html>
